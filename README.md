@@ -6,8 +6,8 @@ Hello everyone. Inspired by the phone game "slither.io", we decided to create a 
 
 == Requirements ==
 
-1. This game is ran straight from the computer terminal, so a laptop is required to play the game.
-2. In order for the terminal to successfully compile/run the game code and start up the game, the following SFML packages must be installed and configured:
+* This game is ran straight from the computer terminal, so a laptop is required to play the game.
+* In order for the terminal to successfully compile/run the game code and start up the game, the following SFML packages must be installed and configured:
 -sfml-graphics-d.lib
 -sfml-window-d.lib
 -sfml-system-d.lib
@@ -24,3 +24,5 @@ The game starts automatically as soon as the gaming window is launched. On the w
   * If the worm dies, press enter to respawn the worm and restart the game.
 
 ==Instructions on how to execute and start up the game==
+
+1. Download everything in the FeedtheWorm repository. Recommended way of doing it is to 
