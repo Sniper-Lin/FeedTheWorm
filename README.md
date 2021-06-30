@@ -25,4 +25,9 @@ The game starts automatically as soon as the gaming window is launched. On the w
 
 ==Instructions on how to execute and start up the game==
 
-1. Download everything in the FeedtheWorm repository. Recommended way of doing it is to 
+1. Download everything from main in the FeedtheWorm repository as a zip. Recommended way of doing it is to select the "Download ZIP" option by pressing the green "download code" button.
+2. Extract the zip folder. After extracting, you should be find a folder named something like "FeedTheWorm-Main" on your computer.
+3. Move that folder to your home directory and open your computer (preferably linux) terminal.
+4. In your terminal, type in "cd" followed by a space and the folder name before pressing enter.
+5. Next, type in the terminal "make Gmain" and press enter.
+6. Finally, type "Gmain" to run the game.
