@@ -359,19 +359,19 @@ int game_start() {
 
   setView(); 
   
-  if (!font.loadFromFile("/home/ece-student/EC327_Project/font/Amatic-Bold.ttf")) {
+  if (!font.loadFromFile("./font/Amatic-Bold.ttf")) {
     cout << "Failed to load text font" << endl;
     return -1;
   }
 
   //load in game backgrounds
-  texture.loadFromFile("/home/ece-student/EC327_Project/backgrounds/background.jpg");
+  texture.loadFromFile("./background.jpg");
   sprite.setPosition(sf::Vector2f(LMAP, TMAP));
   sprite.setScale(sf::Vector2f(.8, 1.5));
   sprite.setTexture(texture);
   texture.setSmooth(true);
 
-  texture1.loadFromFile("/home/ece-student/EC327_Project/backgrounds/sky.jpg");
+  texture1.loadFromFile("./backgrounds/sky.jpg");
   sprite1.setPosition(sf::Vector2f(0, 0));
   sprite1.setScale(sf::Vector2f(.366, 2));
   sprite1.setTexture(texture1);
