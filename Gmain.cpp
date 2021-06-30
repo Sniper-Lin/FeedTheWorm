@@ -365,7 +365,7 @@ int game_start() {
   }
 
   //load in game backgrounds
-  texture.loadFromFile("./background.jpg");
+  texture.loadFromFile("./backgrounds/background.jpg");
   sprite.setPosition(sf::Vector2f(LMAP, TMAP));
   sprite.setScale(sf::Vector2f(.8, 1.5));
   sprite.setTexture(texture);
